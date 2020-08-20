@@ -1,44 +1,37 @@
 body {
     background-image: url(floralBackground.jpg);
 }
-
 .top {
     margin-right: auto;
 }
-
 .bottom {
     margin-right: auto;
     font-family: sans-serif;
 }
-
 .bottom input:focus button:focus {
     outline: none;
 }
-
 #extension h1 {
     font-family: cursive;
     font-size: 50px;
     margin-left: 20px;
-    color: #4b536e;
+    color: #4B536E;
 }
-
 #scary-button {
     width: 130px;
     height: 40px;
     margin-left: 15px;
     border-radius: 5px;
     font-family: sans-serif;
-    background-color: #d192a9;
+    background-color: #D192A9;
     transition: all 0.2s;
     color: white;
     display: inline-block;
     font-size: 16px;
 }
-
 #scary-button button:hover {
-    background-color: #e3b9cb;
+    background-color: #E3B9CB;
 }
-
 #extension {
     width: 700px;
     height: 500px;
@@ -46,16 +39,13 @@ body {
     flex-direction: column;
     font-size: 18px;
 }
-
 #reminder {
     margin-left: 20px;
     width: 240px;
 }
-
 .last {
     margin-top: 25px;
 }
-
 input {
     margin-right: 10px;
     margin-left: 10px;
