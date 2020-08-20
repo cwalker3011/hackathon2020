@@ -1,3 +1,1 @@
-# hackathon2020
-
-//test lines in the readme
+WOOOO!! Go casey and amy
