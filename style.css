@@ -6,7 +6,8 @@ body {
 }
 .bottom {
     margin-right: auto;
-    font-family: sans-serif;
+    font-family: 'Tangerine', cursive;
+    font-size: 30px;
 }
 .bottom input:focus button:focus {
     outline: none;
@@ -22,19 +23,22 @@ body {
     height: 40px;
     margin-left: 15px;
     border-radius: 5px;
-    font-family: sans-serif;
+    font-family: 'Tangerine', cursive;
     background-color: #D192A9;
     transition: all 0.2s;
     color: white;
     display: inline-block;
-    font-size: 16px;
+    font-size: 25px;
 }
 #scary-button button:hover {
     background-color: #E3B9CB;
 }
+#scary-button a{
+    outline:none;
+}
 #extension {
-    width: 700px;
-    height: 500px;
+    width: 530px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     font-size: 18px;
@@ -49,4 +53,35 @@ body {
 input {
     margin-right: 10px;
     margin-left: 10px;
+}
+button[id="scary-button"] {
+    outline:none;
+}
+input[type="text"]{
+    outline:none;
+    width: 40px;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px solid #95acfa;
+}
+input[id="dummy"] {
+    outline:none;
+    width: 40px;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px solid #95acfa;
+}
+
+.gifs {
+    display: flex;
+    flex-direction: row;
+}
+
+#cat {
+    margin: 50px;
+    padding-bottom:50px;
+}
+
+#heart {
+    padding-bottom: 100px;
 }
